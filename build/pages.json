@@ -84,8 +84,8 @@
 		"displaycode": true		
 	},
 	"mirador-viewer": {
-		"parent": "extensions",
-		"displayName": "Mirador IIIF viewer",
+		
+		"displayName": "Provenance Project",
 		"aliases": "Mirador IIIF viewer",
 		"class": "mirador",
 		"file": "mirador.json",
