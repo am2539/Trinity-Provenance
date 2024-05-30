@@ -1,15 +1,12 @@
 {
 	"catalog": [
-		{ "manifestID": "https://mss-cat.trin.cam.ac.uk/manuscripts/provenance_project.json" }, 
-		{ "manifestID": "https://media.nga.gov/public/manifests/nga_highlights.json" }		
+		{ "manifestID": "https://mss-cat.trin.cam.ac.uk/manuscripts/provenance_project.json" }
+			
 	],
 	"windows": [{
 			"manifestId": "https://mss-cat.trin.cam.ac.uk/manuscripts/provenance_project.json",
-			"canvasIndex": 0
-		},
-		{
-			"manifestId": "https://iiif.harvardartmuseums.org/manifests/object/299843",
-			"canvasIndex": 3
+			"view": "gallery"
 		}
+		
 	]
 }
