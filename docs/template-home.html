@@ -169,57 +169,6 @@
 	</figure>		<h3>Extra extension file</h3>
 	<figure>
 		<pre class="json-renderer" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
-    &quot;@context&quot;: &quot;http://iiif.io/api/presentation/2/context.json&quot;,
-    &quot;@type&quot;: &quot;sc:Manifest&quot;,
-    &quot;@id&quot;: &quot;https://data.ng-london.org.uk/iiif/0CWR-0001-0000-0000/manifest&quot;,
-    &quot;label&quot;: &quot;Jean de Dinteville and Georges de Selve (&#039;The Ambassadors&#039;)&quot;,
-    &quot;metadata&quot;: [
-        {
-            &quot;label&quot;: &quot;Description&quot;,
-            &quot;value&quot;: &quot;Hans Holbein the Younger, 1497/8 - 1543. Jean de Dinteville and Georges de Selve (&#039;The Ambassadors&#039;). Oil on oak. Bought, 1890. NG1314. https://www.nationalgallery.org.uk/paintings/NG1314&quot;
-        }
-    ],
-    &quot;description&quot;: &quot;Hans Holbein the Younger, 1497/8 - 1543. Jean de Dinteville and Georges de Selve (&#039;The Ambassadors&#039;). Oil on oak. Bought, 1890. NG1314. https://www.nationalgallery.org.uk/paintings/NG1314&quot;,
-    &quot;sequences&quot;: [
-        {
-            &quot;@type&quot;: &quot;sc:Sequence&quot;,
-            &quot;@id&quot;: &quot;https://data.ng-london.org.uk/iiif/0CWR-0001-0000-0000/sequence/normal&quot;,
-            &quot;canvases&quot;: [
-                {
-                    &quot;@type&quot;: &quot;sc:Canvas&quot;,
-                    &quot;@id&quot;: &quot;https://data.ng-london.org.uk/iiif/0CWR-0001-0000-0000/canvas/123&quot;,
-                    &quot;thumbnail&quot;: {
-                        &quot;@type&quot;: &quot;dctypes:Image&quot;,
-                        &quot;@id&quot;: &quot;https://data.ng-london.org.uk/iiif/image/0UUJ-0008-0000-0000/full/150,/0/native.jpg&quot;
-                    },
-                    &quot;height&quot;: 5124,
-                    &quot;width&quot;: 5194,
-                    &quot;images&quot;: [
-                        {
-                            &quot;@type&quot;: &quot;oa:Annotation&quot;,
-                            &quot;@id&quot;: &quot;https://data.ng-london.org.uk/iiif/0CWR-0001-0000-0000/image/123/zoom&quot;,
-                            &quot;motivation&quot;: &quot;sc.painting&quot;,
-                            &quot;on&quot;: &quot;https://data.ng-london.org.uk/iiif/0CWR-0001-0000-0000/canvas/123&quot;,
-                            &quot;resource&quot;: {
-                                &quot;@type&quot;: &quot;dctypes:Image&quot;,
-                                &quot;format&quot;: &quot;image/jpeg&quot;,
-                                &quot;@id&quot;: &quot;https://data.ng-london.org.uk/iiif/image/0UUJ-0008-0000-0000/full/full/0/native.jpg&quot;,
-                                &quot;height&quot;: 5124,
-                                &quot;width&quot;: 5194,
-                                &quot;service&quot;: {
-                                    &quot;@id&quot;: &quot;https://data.ng-london.org.uk/iiif/image/0UUJ-0008-0000-0000&quot;,
-                                    &quot;@context&quot;: &quot;http://iiif.io/api/image/1/context.json&quot;,
-                                    &quot;profile&quot;: &quot;http://iiif.io/api/image/2/level2.json&quot;
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    &quot;license&quot;: &quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot;,
-    &quot;attribution&quot;: &quot;These images are \u00a9 The National Gallery, London. These works are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0) https://creativecommons.org/licenses/by-nc-nd/4.0/&quot;,
     &quot;logo&quot;: &quot;https://research.ng-london.org.uk/ng/graphics/ng_logo_tr_125.png&quot;
 }</code></pre>
 		<figcaption class="figure-caption">The complete extension file used to define extra content included in this page.</figcaption>
@@ -236,7 +185,7 @@
 		  <footer class="fixed-bottom bg-light">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-5" style="text-align:left;">&copy; The National Gallery 2021</div>
+				<div class="col-5" style="text-align:left;">&copy; Anne McLaughlin 2024</div>
 				<div class="col-2" style="text-align:center;"></div>
 				<div class="col-5" style="text-align:right;"><a href='http://rightsstatements.org/vocab/InC-EDU/1.0/'><img height='16' alt='In Copyright - Educational Use Permitted' title='In Copyright - Educational Use Permitted' src='graphics/InC-EDU.dark-white-interior-blue-type.png'/></a><a rel='license' href='https://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a></div>
 			</div>
@@ -261,8 +210,7 @@
 		
 		sequenceMode: true,
 		showReferenceStrip: true,
-		tileSources:   ["https://data.ng-london.org.uk/iiif/image/0UUJ-0008-0000-0000/info.json",
-]
+		tileSources:   []
 		});  
    
 	
