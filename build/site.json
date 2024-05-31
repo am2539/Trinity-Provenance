@@ -7,7 +7,7 @@
 		"logo_link": "https://lib-cat.trin.cam.ac.uk/Search/Results?filter%5B%5D=specialCollSubject_txtF_mv%3A%22Crewe%22&lookfor=%2A&type=AllFields",
 		"licence": "<a href='http://rightsstatements.org/vocab/InC-EDU/1.0/'><img height='16' alt='In Copyright - Educational Use Permitted' title='In Copyright - Educational Use Permitted' src='graphics/InC-EDU.dark-white-interior-blue-type.png'/></a><a rel='license' href='https://creativecommons.org/licenses/by-nc/4.0/'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-nc/4.0/88x31.png' /></a>",
 		"logo_path": "graphics/trinity_identity_black.png",
-		"footer": "&copy; <a href="mailto:anne.mclaughlin@trin.cam.ac.uk">Anne McLaughlin 2024</a>",
+		"footer": "&copy; <a href='mailto:anne.mclaughlin@trin.cam.ac.uk'>Anne McLaughlin 2024</a>",
 		"extra_logos": {
 			"github": {
 				"link": "https://trin.cam.ac.uk/library",
