@@ -5,7 +5,7 @@
         "aliases": "Mirador IIIF viewer",
         "class": "mirador",
         "file": "mirador.json",
-        "title": "The <b>The Crewe Collection Provenance Project</b>",
+        "title": "The Crewe Collection Provenance Project",
         "content": "<p>[##]</p>",
         "content right": ""		
             },
